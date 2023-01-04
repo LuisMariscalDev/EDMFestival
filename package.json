@@ -4,7 +4,7 @@
   "description": "Proyecto con Gulp, SASS y HTML",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/LuisMariscalDev/EDMFestival/issues"
   },
-  "homepage": "https://github.com/LuisMariscalDev/EDMFestival#readme"
+  "homepage": "https://github.com/LuisMariscalDev/EDMFestival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.57.1"
+  }
 }
