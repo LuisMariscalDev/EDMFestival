@@ -1,0 +1,23 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyecto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisMariscalDev/EDMFestival.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "LuisMariscalDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisMariscalDev/EDMFestival/issues"
+  },
+  "homepage": "https://github.com/LuisMariscalDev/EDMFestival#readme"
+}
