@@ -359,7 +359,7 @@ h3 {
   }
 }
 .header .contenido-header {
-  padding: 1rem;
+  padding: 2rem;
 }
 @media (min-width: 768px) {
   .header .contenido-header {
@@ -389,4 +389,45 @@ h3 {
 }
 .navegacion-principal a:hover {
   color: #FEF46D;
+}
+
+.video {
+  position: relative;
+  max-height: 70rem;
+  min-height: 50rem;
+  overflow: hidden;
+}
+.video .overlay {
+  position: absolute;
+  background: rgb(76, 10, 175);
+  background: linear-gradient(270deg, rgba(76, 10, 175, 0.5525560566) 2%, rgba(129, 45, 123, 0.2080182415) 100%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video video {
+  width: auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  .video video {
+    width: 100%;
+  }
+}
+
+.contenido-video h2 {
+  color: #FFFFFF;
+  font-size: 7rem;
+  margin: 0;
+}
+.contenido-video p {
+  background-color: #F53756;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 0;
 }
