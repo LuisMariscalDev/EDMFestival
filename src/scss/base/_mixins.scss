@@ -11,7 +11,6 @@
         @content;
     }
 }
-
 @mixin desktop {
     @media (min-width: v.$desktop) {
         @content;
@@ -21,4 +20,10 @@
     @media (min-width: v.$desktopXL) {
         @content;
     }
+}
+
+@mixin grid($columnas, $espaciado){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
 }
